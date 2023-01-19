@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="darkreader-lock">
+    <link rel="stylesheet" href="index.css">
+    <title>Dialogue Generator</title>
+</head>
+
+<body>
+    <div id="container">
+        <img width="608" height="128" id="dialoguebg" src="Assets/Images/dialogue.png">
+
+        <p>Text:</p>
+        <textarea id="text-input" cols="46" rows="3"></textarea>
+
+        <p>Face (optional): <input id="facefile" type="file" accept="image/*"></p>
+        <img width="96" height="96" id="face" src="Assets/Images/face_placeholder.png">
+
+        <button onclick="updateCanvas()">Update</button>
+
+        <p>Output:</p>
+        <canvas width="608" height="128" id="dialoguecanvas"></canvas>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

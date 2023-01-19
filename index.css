@@ -1,0 +1,29 @@
+@font-face {
+    font-family: terminus;
+    src: url('Assets/Fonts/Terminus.ttf');
+}
+
+body {
+    background: linear-gradient(#250630, #61163d);
+    background-attachment: fixed;
+    font-family: terminus;
+    font-size: large;
+    text-shadow: 2px 2px 8px black;
+    color: white;
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#dialoguebg {
+    display: none;
+}
+
+#face {
+    display: none;
+}
