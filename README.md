@@ -5,4 +5,4 @@ OneShot dialogue generator, previously a Discord bot command, now in your browse
 
 # Known issues or to-do
 * Text wrapping is just.. bad
-* Option for the arrow seen in game at the bottom of the dialogue
+* Support other games other than oneshot (eg. terraria, celeste)
